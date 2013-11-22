@@ -1,0 +1,41 @@
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+    <EditText 
+        android:id="@+id/write_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        />
+    
+    <EditText 
+        android:id="@+id/write_sobrenome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        />
+    
+    <EditText 
+        android:id="@+id/write_nascimento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        />
+    
+    <Button 
+        android:id="@+id/write_gerar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gerar_qr_code"
+        />
+    
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+
+</LinearLayout>

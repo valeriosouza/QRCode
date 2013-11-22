@@ -1,0 +1,9 @@
+/bin
+/bin/*
+/gen
+/gen/
+*.class
+/target
+/target/*
+.settings
+*.settings
